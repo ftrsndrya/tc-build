@@ -18,7 +18,7 @@ install:
   - sudo apt-get install -y patchelf
 
 before_script:
-  - chmod +x nova_clang.sh
+  - chmod +x nova_travis.sh
 
 script:
   - ./nova_travis.sh
